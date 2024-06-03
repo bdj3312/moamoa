@@ -1,13 +1,13 @@
 absl-py==2.1.0
-aiobotocore @ file:///C:/b/abs_3cwz1w13nn/croot/aiobotocore_1701291550158/work
-aiohttp @ file:///C:/b/abs_27h_1rpxgd/croot/aiohttp_1707342354614/work
-aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-altair @ file:///C:/b/abs_27reu1igbg/croot/altair_1687526066495/work
-anaconda-anon-usage @ file:///C:/b/abs_95v3x0wy8p/croot/anaconda-anon-usage_1697038984188/work
-anaconda-catalogs @ file:///C:/b/abs_8btyy0o8s8/croot/anaconda-catalogs_1685727315626/work
-anaconda-client @ file:///C:/b/abs_34txutm0ue/croot/anaconda-client_1708640705294/work
+aiobotocore
+aiohttp 
+aioitertools 
+aiosignal 
+alabaster 
+altair 
+anaconda-anon-usage 
+anaconda-catalogs 
+anaconda-client 
 anaconda-cloud-auth @ file:///C:/b/abs_410afndtyf/croot/anaconda-cloud-auth_1697462767853/work
 anaconda-navigator @ file:///C:/b/abs_cfvv8k_j21/croot/anaconda-navigator_1704813334508/work
 anaconda-project @ file:///C:/ci_311/anaconda-project_1676458365912/work
@@ -106,6 +106,7 @@ gensim @ file:///C:/ci_311/gensim_1677743037820/work
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
 GitPython @ file:///C:/b/abs_e1lwow9h41/croot/gitpython_1696937027832/work
 gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
+gunicorn
 google-api-core==2.18.0
 google-api-python-client==2.124.0
 google-auth==2.29.0
@@ -121,6 +122,7 @@ googleapis-common-protos==1.63.0
 greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
 grpcio==1.62.1
 grpcio-status==1.62.1
+gunicorn==22.0.0
 h11==0.14.0
 h5py==3.10.0
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
