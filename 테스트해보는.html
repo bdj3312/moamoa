@@ -9,18 +9,16 @@
     <button onclick="sendRequest()">서버에 요청 보내기</button>
     <script>
         function sendRequest() {
-            
-            fetch('http://localhost:/test')
+            fetch('http://127.0.0.1:40000/test')
                 .then(response => response.text())
                 .then(data => {
-                    console.log('뒤지게 어렵네');
-                    alert(`이걸 내가 왜받아ㅡㅡ : 버려버려 그냥`);
+                    console.log('서버 응답:', data);
+                    alert(`서버 응답: ${data}`);
                 })
                 .catch(error => {
                     console.error('에러 발생:', error);
                 });
         }
-        
     </script>
 </body>
 </html>
