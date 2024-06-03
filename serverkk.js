@@ -9,6 +9,7 @@ app.options('*', cors());
 
 // 클라이언트 요청 처리
 app.get('/test', async (req, res) => {
+    console.log('클라이언트 요청이 도착했습니다.');
     try {
         // Python 서버로 요청 보냄
         const pythonResponse = await axios.get('http://116.41.154.158:5000/python-endpoint');
