@@ -11,7 +11,7 @@ app.options('*', cors());
 app.get('/test', async (req, res) => {
     try {
         // Python 서버로 요청 보냄
-        const pythonResponse = await axios.get('http://localhost:5000/python-endpoint');
+        const pythonResponse = await axios.get('http://116.41.154.158/python-endpoint');
         res.send(`서버에서 온 응답: ${pythonResponse.data}`);
     } catch (error) {
         res.status(500).send('Python 서버와의 통신에 실패했습니다.');
