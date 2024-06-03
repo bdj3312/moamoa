@@ -1,5 +1,5 @@
 # 베이스 이미지 정의
-FROM python:3.11-buster
+FROM python:3.7-buster
 
 # 작업 디렉토리 설정
 WORKDIR /app
